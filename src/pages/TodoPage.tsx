@@ -40,8 +40,8 @@ export default function page1({}: Props) {
   };
   return (
     <>
-      <div className="container mx-auto">
-        <h1>Todo App</h1>
+      <div className="main mx-auto">
+        <h1 className="text-white">Todo App</h1>
         <br />
         <div className="container1">
           <Input
@@ -51,8 +51,8 @@ export default function page1({}: Props) {
           />
 
           <Button className="btnAdd bg-red-400" onClick={handleAddTodo}>
-            Add
-            <BookmarkIcon strokeWidth={2} className="h-5 w-5 text-white" />
+            ADD
+            <BookmarkIcon strokeWidth={3} className="h-5 w-5 text-white" />
           </Button>
         </div>
 

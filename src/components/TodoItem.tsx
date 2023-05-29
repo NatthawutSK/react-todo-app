@@ -28,11 +28,11 @@ export default function TodoItem({
 
   return (
     <>
-      <div className="relative w-full  pt-6 ">
-        <div className=" box h-15 p-4 rounded-md bg-white">
+      <div className="relative w-full  pt-6">
+        <div className=" box h-14 p-4 rounded-md bg-white flex flex-row gap-3">
           <label>
             <input
-              className="flex w-5 h-5 accent-pink-500"
+              className="w-5 h-5 accent-pink-500"
               type="checkbox"
               checked={isCompleted}
               onChange={onToggle}
@@ -40,7 +40,7 @@ export default function TodoItem({
           </label>
           {editMode ? (
             <input
-              className="w-5/6 bg-red-200"
+              className="w-4/5 bg-red-200"
               type="text"
               value={editedTodo}
               onChange={(e) => setEditedTodo(e.target.value)}
