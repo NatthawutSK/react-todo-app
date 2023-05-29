@@ -45,7 +45,9 @@ export default function page1({}: Props) {
 
       <ul>
         {todo.map((item, index) => (
+          <div className="pt-6">
           <TodoItem key={index} content={item} />
+          </div>
         ))}
       </ul>
      
