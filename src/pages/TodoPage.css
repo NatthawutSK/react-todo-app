@@ -2,16 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-@layer components{
-  .btnAdd{
+@layer components {
+  .btnAdd {
     @apply flex items-center gap-3;
   }
-  .container {
+  .container1 {
     @apply flex items-center gap-4;
   }
 }
-
-
-
