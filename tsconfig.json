@@ -16,7 +16,8 @@
     "types": ["node"],
     "paths": {
       "@/*": ["./src/*"],
-      "@/components/*": ["components/*"]
+      "@/components/*": ["components/*"],
+      "@/store/*": ["store/*"]
     },
     /* Linting */
     "strict": true,
