@@ -1,10 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { useDispatch } from "react-redux";
 
-import counter1Reducer from "./slices/counter1Slice";
+import TodoReducer from "./slices/TodoSlice";
 
 const reducer = {
-  counter1Reducer,
+  TodoReducer,
 };
 
 export const store = configureStore({
